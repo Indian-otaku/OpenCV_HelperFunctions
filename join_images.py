@@ -21,7 +21,7 @@ def Join_Images(
 
     n_images = len(image_list)
     img_height, img_width = image_list[0].shape[0], image_list[0].shape[1]
-    n_rows = int(np.ceil(n_images // n_cols))
+    n_rows = int(np.ceil(n_images / n_cols))
     n_images_window = n_rows * n_cols
 
     # Getting window height and width and scaling it.
