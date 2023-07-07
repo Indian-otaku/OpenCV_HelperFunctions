@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-
+# Function that can joins together multiple images of same height and width by specifying no of columns.
 def Join_Images(
     image_list, n_cols=2, window_name="Joined_Window", scale=20, create_window=True
 ):
